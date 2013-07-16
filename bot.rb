@@ -34,10 +34,10 @@ class MambleBot
 				logmsg = @cli.users[msg.actor].name + ": " + msg.message
 				File.open('/var/log/murmur/mumble.log', 'a') { |file| file.write(logmsg+"\n") }
 				case msg.message.to_s
-				when /^\/d(\d{3})$/
+				when /^(?:[\/\\]|)d(\d{1,3})$/
 					send roll_dice($1)
 				when /^m[au]mblebot/
-					listen_commands($`)
+					listen_commands($')
 				when /spot the fed/i
 					send "NOT MUMBLEBOT. NOT MUMBLEBOT AT ALL. I didn't just log that you said #{msg.message.to_s} at all.. >_>;;. Nobody is listening."
 				end
