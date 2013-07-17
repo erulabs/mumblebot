@@ -10,7 +10,7 @@ require 'open-uri'
 class MambleBot
 
 	def log(msg)
-		File.open('/var/log/murmur/mumble.log', 'a') { |file| file.write(msg+"\n") }
+		File.open('mumble.log', 'a') { |file| file.write(msg+"\n") }
 	end
 
 	def send(msg)
@@ -66,8 +66,8 @@ class MambleBot
 			end
 		end
 		@cli.connect
-		@cli.mute
-		@cli.deafen
+		#@cli.mute
+		#@cli.deafen
 		sleep(1)
 		@cli.join_channel('peench peench')
 		puts 'Press enter to terminate script';
