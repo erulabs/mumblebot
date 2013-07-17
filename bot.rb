@@ -8,7 +8,7 @@ require 'base64'
 require 'open-uri'
 
 configFile = File.open("./username", "r")
-username = file.read
+username = configFile.read
 
 class MambleBot
 
