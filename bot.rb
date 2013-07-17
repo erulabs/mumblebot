@@ -64,8 +64,7 @@ class MambleBot
 	end
 
 	def initialize
-		configFile = File.open("./username", "r")
-		username = configFile.read
+		username = File.open("./username") { |io| io.read }
 		@cli = Mumble::Client.new('erulabs.com', 64738, username, 'qweasd')
 		@cli.on_text_message do |msg|
 			if @cli.users.has_key?(msg.actor)
@@ -87,7 +86,7 @@ class MambleBot
 		@cli.connect
 		#@cli.mute
 		#@cli.deafen
-		sleep(1)
+		sleep(2)
 		@cli.join_channel('peench peench')
 		puts 'Press enter to terminate script';
 		gets
