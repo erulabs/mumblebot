@@ -7,6 +7,9 @@ require 'json'
 require 'base64'
 require 'open-uri'
 
+configFile = File.open("./username", "r")
+username = file.read
+
 class MambleBot
 
 	def log(msg)
@@ -64,7 +67,7 @@ class MambleBot
 	end
 
 	def initialize
-		@cli = Mumble::Client.new('erulabs.com', 64738, 'TheKingler', 'qweasd')
+		@cli = Mumble::Client.new('erulabs.com', 64738, username, 'qweasd')
 		@cli.on_text_message do |msg|
 			if @cli.users.has_key?(msg.actor)
 				log @cli.users[msg.actor].name + ": " + msg.message
