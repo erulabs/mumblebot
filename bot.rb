@@ -64,14 +64,11 @@ class MambleBot
 	end
 
 	def initialize
-		username = File.open("./username") { |io| io.read }
-		@cli = Mumble::Client.new('erulabs.com', 64738, username, 'qweasd')
+		@cli = Mumble::Client.new('erulabs.com', 64738, BotName, 'qweasd')
 		@cli.on_text_message do |msg|
 			if @cli.users.has_key?(msg.actor)
 				log @cli.users[msg.actor].name + ": " + msg.message
 				case msg.message.to_s
-				when /fortune/
-					send `fortune`
 				when /^(?:[\/\\]|)d(\d{1,3})$/
 					send roll_dice($1)
 				when /^m[au]mblebot/
@@ -86,8 +83,8 @@ class MambleBot
 		@cli.connect
 		#@cli.mute
 		#@cli.deafen
-		sleep(2)
-		@cli.join_channel('peench peench')
+		sleep(1)
+		@cli.join_channel('Team 1')
 		puts 'Press enter to terminate script';
 		gets
 		@cli.disconnect
