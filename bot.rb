@@ -31,6 +31,15 @@ class MambleBot
 			send get_pug()
 		end
 	end
+
+	def sound_board(msg)
+		msg = msg.strip
+		file =	File.join('audio/',"#{msg}.fifo")
+		@cli.stream_raw_audio(file) if File.exist? file
+		sleep(1)
+		send "Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, fwizard, hello, heyguys, kkk, lollipop, omg, pants, upcarrot, words, wow." if msg == ""
+	end
+			
 	
 	def roll_dice(d)
 		if d != "1"
@@ -64,7 +73,7 @@ class MambleBot
 	end
 
 	def initialize
-		@cli = Mumble::Client.new('erulabs.com', 64738, 'TheKingler', 'qweasd')
+		@cli = Mumble::Client.new('erulabs.com', 64738, 'FalconBot', 'qweasd')
 		@cli.on_text_message do |msg|
 			if @cli.users.has_key?(msg.actor)
 				log @cli.users[msg.actor].name + ": " + msg.message
@@ -73,6 +82,8 @@ class MambleBot
 					send roll_dice($1)
 				when /^m[au]mblebot/
 					listen_commands($')
+				when /^\/sb/
+					sound_board($')
 				when /^img/
 					get_image($')
 				when /spot the fed/i
@@ -84,7 +95,7 @@ class MambleBot
 		#@cli.mute
 		#@cli.deafen
 		sleep(1)
-		@cli.join_channel('peench peench')
+		@cli.join_channel('Team 1')
 		puts 'Press enter to terminate script';
 		gets
 		@cli.disconnect
