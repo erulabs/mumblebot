@@ -14,22 +14,30 @@ class MambleBot
 	end
 
 	def send(msg)
-		log 'Mumblebot: '+msg
+		log 'Falconbot: '+msg
 		@cli.text_channel @cli.current_channel.name, msg
 	end
 	
 	def encodeImage(url)
 		#return Base64.encode64(url)
 		imagedata = open(url) { |io| io.read }
-		puts imagedata
+	#	puts imagedata
 		return "<img src='data:image/*;base64," + Base64.encode64(imagedata) + "' \\>"
 	end
 
+#	def find_falcon
+#		
+#	end
+
 	def listen_commands(msg)
-		case msg
-		when /pug\s?me/
-			send get_pug()
-		end
+		derp = msg.strip.to_s
+		puts "DEBUG: find_channel's #{derp} class is #{@cli.find_channel.class}"	
+	end
+
+	def channel_commands(name)
+		name = name.strip.to_s
+		@cli.join_channel(name)
+		sleep(1)
 	end
 
 	def sound_board(msg)
@@ -37,7 +45,7 @@ class MambleBot
 		file =	File.join('audio/',"#{msg}.fifo")
 		@cli.stream_raw_audio(file) if File.exist? file
 		sleep(1)
-		send "Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, ftt, fwizard, hello, heyguys, kkk, lollipop, omg, pants, upcarrot, words, wow." if msg == ""
+		send "Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, ftt, fwiz, hello, hg1, hg2, heyguys, kkk, lollipop, omg, pants, upcarrot, vg, words, wow." if msg == ""
 	end
 			
 	
@@ -73,19 +81,23 @@ class MambleBot
 	end
 
 	def initialize
-		@cli = Mumble::Client.new('erulabs.com', 64738, 'BotName', 'qweasd')
+		usernames = ['FalctimusPrime', 'FalconBot', 'WizBot']
+		@cli = Mumble::Client.new('erulabs.com', 64738, usernames.sample, 'qweasd')
 		@cli.on_text_message do |msg|
 			if @cli.users.has_key?(msg.actor)
 				log @cli.users[msg.actor].name + ": " + msg.message
 				case msg.message.to_s
 				when /^(?:[\/\\]|)d(\d{1,3})$/
 					send roll_dice($1)
-				when /^m[au]mblebot/
-					listen_commands($')
+				when /^\/channel/
+					channel_commands($')
+				when /^\/fb/
+					puts "Herp Derp #{@cli.find_user($').to_s}"
 				when /^\/sb/
 					sound_board($')
 				when /^img/
 					get_image($')
+				when /^msg/ then send($') 
 				when /spot the fed/i
 					send "NOT MUMBLEBOT. NOT MUMBLEBOT AT ALL. I didn't just log that you said #{msg.message.to_s} at all.. >_>;;. Nobody is listening."
 				end
@@ -95,7 +107,7 @@ class MambleBot
 		#@cli.mute
 		#@cli.deafen
 		sleep(1)
-		@cli.join_channel('Team 1')
+		@cli.join_channel('peench peench')
 		puts 'Press enter to terminate script';
 		gets
 		@cli.disconnect
