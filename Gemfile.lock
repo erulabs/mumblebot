@@ -1,0 +1,36 @@
+GIT
+  remote: https://github.com/Kingles/mumble-ruby.git
+  revision: 2954c04d15a533728f89b58b5521a01ff22390ca
+  specs:
+    mumble-ruby (0.0.3)
+      activesupport
+      celt-ruby
+      ruby_protobuf
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.0.2)
+      i18n (~> 0.6, >= 0.6.4)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    atomic (1.1.14)
+    celt-ruby (0.0.1)
+      ffi
+    ffi (1.9.3)
+    i18n (0.6.9)
+    minitest (4.7.5)
+    multi_json (1.8.2)
+    ruby_protobuf (0.4.11)
+    thread_safe (0.1.3)
+      atomic
+    tzinfo (0.3.38)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  i18n
+  mumble-ruby!

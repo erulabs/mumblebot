@@ -1,4 +1,5 @@
-#!/usr/bin/ruby
+require 'rubygems'
+require 'bundler/setup'
 
 require 'mumble-ruby'
 require 'net/https'
@@ -107,7 +108,7 @@ class MambleBot
 		#@cli.mute
 		#@cli.deafen
 		sleep(1)
-		@cli.join_channel('peench peench')
+		@cli.join_channel('Team 2')
 		puts 'Press enter to terminate script';
 		gets
 		@cli.disconnect
