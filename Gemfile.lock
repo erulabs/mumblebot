@@ -20,6 +20,7 @@ GEM
     celt-ruby (0.0.1)
       ffi
     ffi (1.9.3)
+    ffi (1.9.3-x86-mingw32)
     i18n (0.6.9)
     minitest (4.7.5)
     multi_json (1.8.2)
@@ -30,6 +31,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   i18n

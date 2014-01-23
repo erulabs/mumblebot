@@ -10,6 +10,22 @@ require 'open-uri'
 
 class MambleBot
 
+	NAME = "Mumblebot"
+	alias_method :sub, :subscribe
+	@subs = {}
+
+	def subscribe(regex, &block)
+		regex = regex.inspect.sub('/', "/#{MambleBot::NAME}\\s?")
+		@subs[regex] = block
+	end
+
+	def fire_commands(command)
+		@subs.select{|key| command =~ key}.each do |k,v|
+			v.call(Regexp.last_match, $')
+		end
+	end
+
+
 	def log(msg)
 		File.open('mumble.log', 'a') { |file| file.write(msg+"\n") }
 	end
@@ -81,12 +97,18 @@ class MambleBot
 		send encodeImage(url)
 	end
 
+
 	def initialize
+		sub /sb/ do |msg|
+			sound_board msg
+		end
+		sub // do |msg|
 		usernames = ['FalctimusPrime', 'FalconBot', 'WizBot']
 		@cli = Mumble::Client.new('erulabs.com', 64738, usernames.sample, 'qweasd')
 		@cli.on_text_message do |msg|
 			if @cli.users.has_key?(msg.actor)
 				log @cli.users[msg.actor].name + ": " + msg.message
+				fire_commands msg.message.to_s
 				case msg.message.to_s
 				when /^(?:[\/\\]|)d(\d{1,3})$/
 					send roll_dice($1)
