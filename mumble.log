@@ -1,0 +1,913 @@
+FalconWiz: /channel Root
+FalconWiz: /message Hello
+FalconWiz: /msg I AM ALIVE
+FalconWiz: /sb
+Falconbot: Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, ftt, fwiz, hello, hg1, hg2, heyguys, kkk, lollipop, omg, pants, upcarrot, vg, words, wow.
+FalconWiz: /msg Hi
+FalconWiz: /sb hello
+FalconWiz: /spot the fed
+Falconbot: NOT MUMBLEBOT. NOT MUMBLEBOT AT ALL. I didn't just log that you said /spot the fed at all.. >_>;;. Nobody is listening.
+FalconWiz: /msg hello
+FalconWiz: /sb
+Falconbot: Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, ftt, fwiz, hello, hg1, hg2, heyguys, kkk, lollipop, omg, pants, upcarrot, vg, words, wow.
+FalconWiz: /fb
+FalconWiz: /fb
+FalconWiz: /msg hello
+FalconWiz: msg hello
+Falconbot:  hello
+FalconWiz: msg I'M ALIVE
+Falconbot:  I'M ALIVE
+FalconWiz: /channel Team 2
+FalconWiz: msg Sup scrubs
+Falconbot:  Sup scrubs
+FalconWiz: msg PEACE
+Falconbot:  PEACE
+FalconWiz: /channel Root
+FalconWiz: /channel Team 2
+FalconWiz: /msg Hello Kingles
+Falconbot:  Hello Kingles
+FalconWiz: /msg such doge, many bot, wow
+Falconbot:  such doge, many bot, wow
+kingles_work: /sb
+Falconbot: Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, ftt, fwiz, hello, hg1, hg2, heyguys, kkk, lollipop, omg, pants, upcarrot, vg, words, wow.
+kingles_work: HAHAHA I KNEW IT WAS YOU ALL ALONG
+kingles_work: FALCONBOT
+kingles_work: /spotthefed
+FalconWiz: hmm
+FalconWiz: hmm
+FalconWiz: i see you pushed some things
+FalconWiz: so many constants
+FalconWiz: i see some duplicates
+FalconWiz: i vill ficks
+FalconWiz: /channel Team 1
+FalconWiz: /msg sup scrubs
+Falconbot:  sup scrubs
+FalconWiz: /sb
+Falconbot: Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, ftt, fwiz, hello, hg1, hg2, heyguys, kkk, lollipop, omg, pants, upcarrot, vg, words, wow.
+FalconWiz: /sb hellol
+FalconWiz: /sb hello
+FalconWiz: /sb bananas
+FalconWiz: /sb hg1
+FalconWiz: /sb hg2
+FalconWiz: /sb 007
+FalconWiz: /sb calmtits
+FalconWiz: /sb csbro
+FalconWiz: /channel Team 1
+FalconWiz: /sb
+Falconbot: Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, ftt, fwiz, hello, hg1, hg2, heyguys, kkk, lollipop, omg, pants, upcarrot, vg, words, wow.
+FalconWiz: /sb upcarrot
+Eru-pc: :D
+FalconWiz: /sb 007
+FalconWiz: :D
+FalconWiz: i dont have a bunch of the sounds on there but
+FalconWiz: i have the main ones
+FalconWiz: and still have to convert to opus
+FalconWiz: that is with celt on kingles server
+FalconWiz: hrmmm
+FalconWiz: opus-ruby is coming along though
+Eru-pc: ambitious project
+Eru-pc: but veryt cool
+FalconWiz: &lt; knows nothing about audio codecs
+FalconWiz: &lt; is trying to make a wrapper
+FalconWiz: lol
+FalconWiz: kingles knows lots of ruby things though
+Eru-pc: kingles is jokes smart dude
+FalconWiz: yeah
+FalconWiz: we're just kind of hacking at it until it works though, because it isn't very well documented lol
+Eru-pc: best way to learn :D
+FalconWiz: it's like
+FalconWiz: people are smart enough to make really cool things
+FalconWiz: but they dont document them
+Eru-pc: yep
+FalconWiz: and nobody knows how to use them
+Eru-pc: yep
+Eru-pc: welcome to github.com! :d
+Eru-pc: lol
+FalconWiz: but i mean like
+FalconWiz: opus
+FalconWiz: looks really good
+FalconWiz: you'd think that professionally done things would have good documentation
+Eru-pc: :P
+Eru-pc: if only
+Eru-pc: my advice
+Eru-pc: is dont be afraid of reading the code
+Eru-pc: most programmers write code and never read code
+Eru-pc: imagine learning to write novels
+Eru-pc: without ever reading
+: we might have a problem eru
+Eru-pc: ?
+: &quot;When updating from 1.0.4 remove any conduits and ducts in your world and hold them in your inventory. Railcraft's invisible tracking block was removed because of bugs. However this causes ducts and conduits to go invisible and be unremovable when updating. This is not a Thermal Expansion bug.&quot;
+: I'll tell you if it's causing problems
+: but it might be causing problems
+FalconWiz: hmmm
+: nvm
+: seems fine
+: nvm nvm
+: causing problems
+: I have invisible unremovable blocks in my base
+: you can either:
+: A: leave things be
+: some buggy blocks in my and whikihows base
+: B: downgrade to 1.0.4
+: temporarily
+: then I clean things up
+: then update again
+Eru-pc: fffffffffffffffffffffuuuuuuuuuuu
+Eru-pc: :P
+FalconWiz: dat hassle
+Eru-pc: i gotta find the url
+Eru-pc: fo rthe 1.0.4 server
+: the joys of updating
+Eru-pc: k
+Eru-pc: found it
+Eru-pc: you're lucky war thunder has a 3gb patch!
+Eru-pc: :D
+Eru-pc: :P
+: lol
+: :P
+: I'll give you the heads up when I'm removed all the conduits and ducts
+Eru-pc:  Fatal errors were detected during                          the transition from POSTINITIALIZATION to AVAILABLE. Loading cannot continue<br />2013-12-19 01:18:09 [SEVERE] [ForgeModLoader]
+Eru-pc: uhhhhhhhh
+: sedgdesuhj
+: is this using the current world
+: or a backup?
+Eru-pc: the backup
+: hmmmmmmm
+: let me check something
+Eru-pc: try connecting, i dunno
+: try a 1.0.2 server
+: I can't connect btw
+: minecraft, all the fun in the world after an agony of updates
+Eru-pc: BLEGHhhhhhhhhh
+Eru-pc: ;p;
+: supposed to be a simple download copy paste T.T
+Eru-pc: 1.0.2 server starting
+Eru-pc: should bea  sec
+: k logging on
+: kk logged on
+: I'm going to start removing all the conduits and thingies now.
+kingles_work: /sb
+Falconbot: Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, ftt, fwiz, hello, hg1, hg2, heyguys, kkk, lollipop, omg, pants, upcarrot, vg, words, wow.
+FalconWiz: woah
+FalconWiz: it's kingles work
+FalconWiz: why
+: it is
+FalconWiz: why is kingles work?
+kingles_work: work for 10 minutes or so, hopefully.
+kingles_work: /sb 007
+kingles_work: AKL:&quot;SJDKJL:ADAS
+kingles_work: FALCON
+kingles_work: FALCON
+kingles_work: HOW DID THAT WORK
+kingles_work: FALCON
+kingles_work: /sb wow
+FalconWiz: lol
+FalconWiz: because celt
+kingles_work: FALCON TELL ME
+FalconWiz: on your server
+FalconWiz: isnt broken
+FalconWiz: somehow
+kingles_work: O~O WTF
+FalconWiz: or im a wizard
+kingles_work: What did you do?
+kingles_work: I installed the &quot;right&quot; version but I was still having issues
+FalconWiz: uhhhhh
+FalconWiz: so my secret was
+: server in the middle of updating
+FalconWiz: ruby bot.rb
+FalconWiz: and then it worked
+kingles_work: /sb hg1
+: oh wait
+: different things
+: :P
+FalconWiz: oh yeah
+FalconWiz: the adventure time sounds
+FalconWiz: arent in the audio folder
+kingles_work: ah okay
+kingles_work: nbd
+kingles_work: wtf
+kingles_work: okay when I get home
+kingles_work: I am going
+kingles_work: to test this
+kingles_work: and figure out
+kingles_work: what the fuck
+kingles_work: is happening
+FalconWiz: :D
+kingles_work: k done at work
+kingles_work: home in 8 minutes
+FalconWiz: yasuo is pretty fun
+: he seems like it
+: I plan on buying him
+: /sb hg2
+: /sb
+Falconbot: Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, ftt, fwiz, hello, hg1, hg2, heyguys, kkk, lollipop, omg, pants, upcarrot, vg, words, wow.
+: /sb 007
+: :D
+: hello
+Falconbot: {@cli.username} Online!
+Falconbot: DogeBot Online!
+FalconWiz: /msg Hello
+Falconbot:  Hello
+kingles_laptop: Hello Doge
+kingles_laptop: Hello DogeBot
+kingles_laptop: aw
+kingles_laptop: :&lt;
+Falconbot: DogeBot Online!
+FalconWiz: hello dogebot
+FalconWiz: /sb
+Falconbot: Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, ftt, fwiz, hello, hg1, hg2, heyguys, kkk, lollipop, omg, pants, upcarrot, vg, words, wow.
+Falconbot: DogeBot Online!
+FalconWiz: hello dogebot
+Falconbot: DogeBot Online!
+kingles_laptop: hello dogebot
+Falconbot: Hello kingles_laptop
+kingles_laptop: :33
+FalconWiz: hello dogebot
+Falconbot: Hello FalconWiz
+Falconbot: DogeBot Online!
+FalconWiz: hello dogebot
+Falconbot: Hello FalconWiz!
+Falconbot: DogeBot Online!
+FalconWiz: hello dogebot
+Falconbot: DogeBot Online!
+FalconWiz: hello dogebot
+Falconbot: hello FalconWiz!
+kingles_laptop: woo!
+Falconbot: DogeBot Online!
+FalconWiz: hello dogebot
+Falconbot: Hello FalconWiz!
+Falconbot: DogeBot Online!
+FalconWiz: /channel Team 1
+FalconWiz: hello dogebot
+Falconbot: Hello FalconWiz!
+FalconWiz: eru say hello
+FalconWiz: to dogebot
+FalconWiz: :O
+erus_macbook: hello dogebot
+Falconbot: Hello erus_macbook!
+erus_macbook: :)
+FalconWiz: :D
+FalconWiz: /msg :D
+Falconbot:  :D
+Raffles: hello dogebot
+Falconbot: Hello Raffles!
+gtAngel: hello dogebot
+Falconbot: Hello gtAngel!
+gtAzire: Hello Doge
+gtAzire: FAIL
+gtAzire: FAIL
+gtAngel: hello dogebot
+Falconbot: Hello gtAngel!
+erus_macbook: so azire
+erus_macbook: much expectation
+erus_macbook: wow
+Raffles: dogebot are you a person
+FalconWiz: /msg No
+Falconbot:  No
+gtAngel: dogebot are you sexy?
+gtAngel: it hates me :(
+asdqwex@work: what are you wearing dogebot
+asdqwex@work: ?
+FalconWiz: /msg such sexy
+Falconbot:  such sexy
+FalconWiz: /msg wearing collar and leash
+Falconbot:  wearing collar and leash
+gtAngel: lol
+erus_macbook: o.o
+gtAngel: kinky
+asdqwex@work: ruuuuuffff
+erus_macbook: O.O
+erus_macbook: what happened
+erus_macbook: to this mumble
+asdqwex@work: much coin
+FalconWiz: /msg very doge
+Falconbot:  very doge
+asdqwex@work: all fdoge
+FalconWiz: /sb wow
+gtAngel: <a href="http://i.imgur.com/DTlsmzn.jpg">http://i.imgur.com/DTlsmzn.jpg</a>
+gtAngel: /sb
+Falconbot: Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, ftt, fwiz, hello, hg1, hg2, heyguys, kkk, lollipop, omg, pants, upcarrot, vg, words, wow.
+KingsRansom: /sb wow
+gtAngel: /sb 007
+gtAngel: /sb kkk
+KingsRansom: /sb pants
+gtAngel: /sb eru
+KingsRansom: /sb ftt
+gtAngel: /sb omg
+gtAngel: /sb vg
+Raffles: /sb bananas
+gtAngel: /sb pants
+gtAngel: /sb csbro
+Raffles: /sb fwiz
+asdqwex@work: /sb omg
+gtAngel: /sb eru
+Raffles: /sb hg1
+gtAngel: /sb eru
+Raffles: <a href="http://coinmarketcap.com/">http://coinmarketcap.com/</a>
+FalconWiz: /msg Azire where are you
+Falconbot:  Azire where are you
+: how is that leauge game going?
+gtAngel: finished
+Raffles: /sb heyguys
+gtAngel: want help with your stream still?
+: willing to see if the stream works?
+FalconWiz: yes
+gtAngel: yup
+FalconWiz: /msg link stream pl0x
+Falconbot:  link stream pl0x
+: k
+: <a href="http://www.twitch.tv/durandal1707">http://www.twitch.tv/durandal1707</a>
+Raffles: /sb dawg
+FalconWiz: /sb balls
+Raffles: /sb calmtits
+FalconWiz: /sb upcarrot
+Raffles: /sb lollipop
+gtAngel: stream offline
+: will be online in a mion
+Falconbot: DogeBot Online!
+FalconWiz: /channel Team 1
+FalconWiz: /sb heyguys
+Raffles: /sb heyguys
+Durandal: <a href="http://www.twitch.tv/durandal_1707">http://www.twitch.tv/durandal_1707</a>
+Durandal: I sent you to the wrong one.
+gtAngel: rofl
+gtAngel: I see you
+gtAngel: you're quieter than the game
+gtAngel: kinda distracting
+Durandal: YEah.
+gtAngel: stream down again
+FalconWiz: <a href="http://i.imgur.com/akZxBWi.gif">http://i.imgur.com/akZxBWi.gif</a>
+FalconWiz: <a href="http://www.reddit.com/r/dogecoin/comments/1tat3q/paid_for_sexy_time_using_dogecoin/">http://www.reddit.com/r/dogecoin/comments/1tat3q/paid_for_sexy_time_using_dogecoin/</a>
+FalconWiz: /sb upcarrot
+KingsRansom: /sb ftt
+Raffles: <a href="http://www.reddit.com/r/dogemarket/comments/1tavit/wtb_girls_willing_to_go_naked_and_watch_me_cum_on/">http://www.reddit.com/r/dogemarket/comments/1tavit/wtb_girls_willing_to_go_naked_and_watch_me_cum_on/</a>
+Raffles: its happening
+: <a href="http://www.gamersgate.com/DDB-DBAMC/dungeons-and-dragons-anthology-the-master-collection">http://www.gamersgate.com/DDB-DBAMC/dungeons-and-dragons-anthology-the-master-collection</a>
+Falconbot: DogeBot Online!
+FalconWiz: /channel Team 1
+FalconWiz: /sb hello
+FalconWiz: /msg Hello
+Falconbot:  Hello
+gtAngel: hello dogebot
+Falconbot: Hello gtAngel!
+kingles_work: /sb
+Falconbot: Available sounds: 007, bananas, calmtits, camera, csbro, dawg, eru, ftt, fwiz, hello, hg1, hg2, heyguys, kkk, lollipop, omg, pants, upcarrot, vg, words, wow.
+kingles_work: /sb eru
+erus_macbook: :O
+gtAngel: that's tje nest pme
+gtAngel: ;p;
+FalconWiz: lol
+kingles_work: angel learns typing
+gtAngel: that's the best one*
+kingles_work: today's topic
+gtAngel: hands so cold :(
+gtAngel: /sb eru
+FalconWiz: /msg lol if you have tts on, and make it list the sounds it's hilarious
+Falconbot:  lol if you have tts on, and make it list the sounds it's hilarious
+kingles_work: I know that feel
+gtAngel: /sb csbrp
+gtAngel: /sb csbro
+gtAngel: /sb omg
+FalconWiz: i should make it so the available sounds
+FalconWiz: are from the audio directory
+FalconWiz: like
+kingles_work: yes I agree falcon
+FalconWiz: it scans the directory and returns the filenames
+kingles_work: it's pretty easy
+kingles_work: Dir['../*.fifo']
+kingles_work: prolly
+FalconWiz: ok let me pull up dis code
+Falconbot: DogeBot Online!
+FalconWiz: /channel Team 1
+FalconWiz: /sb
+Falconbot: Available sounds: ["audio/csbro", "audio/eru", "audio/lollipop", "audio/camera", "audio/omg", "audio/pants", "audio/words", "audio/ftt", "audio/upcarrot", "audio/wow", "audio/007", "audio/dawg", "audio/fwizard", "audio/hello", "audio/calmtits", "audio/bananas", "audio/kkk", "audio/heyguys"].
+FalconWiz: lol
+FalconWiz: almost
+FalconWiz: so close
+FalconWiz: can i .split 3 ways?
+FalconWiz: like
+FalconWiz: Dir['audio/*.fifo'].map{|file| file.split('/','.')[1]}
+FalconWiz: or something
+FalconWiz: i'll look it up
+kingles_work: uh
+kingles_work: you can
+kingles_work: but
+kingles_work: you have to chain it
+kingles_work: or you could just use regex.
+kingles_work: Dir['audio/*.fifo'].map{|file| file[/audio\/(.+)\.fifo/]}
+kingles_work: /sb #{eval('puts ENV')}
+kingles_work: &gt;_&gt;;
+kingles_work: /sb
+Falconbot: Available sounds: ["audio/csbro", "audio/eru", "audio/lollipop", "audio/camera", "audio/omg", "audio/pants", "audio/words", "audio/ftt", "audio/upcarrot", "audio/wow", "audio/007", "audio/dawg", "audio/fwizard", "audio/hello", "audio/calmtits", "audio/bananas", "audio/kkk", "audio/heyguys"].
+kingles_work: /sb csbro
+Falconbot: DogeBot Online!
+FalconWiz: /channel Team 1
+FalconWiz: /sb
+Falconbot: DogeBot Online!
+: /sb
+Falconbot: Available sounds: ["csbro", "eru", "lollipop", "camera", "omg", "pants", "words", "ftt", "upcarrot", "wow", "007", "dawg", "fwizard", "hello", "calmtits", "bananas", "kkk", "heyguys"].
+: /channel Team 1
+: /sb
+Falconbot: Available sounds: ["csbro", "eru", "lollipop", "camera", "omg", "pants", "words", "ftt", "upcarrot", "wow", "007", "dawg", "fwizard", "hello", "calmtits", "bananas", "kkk", "heyguys"].
+: not bad
+: what do you think kingles?
+: /sb wow
+: /sb dawg
+: so many ruby documentation and stack overflow tabs open
+: i gotta learn regex
+kingles_work: Yaaaay
+kingles_work: regex is a powerful tool :3
+kingles_work: but also should be used only when it makes sense to
+: well i used it there
+kingles_work: but I think everyone way overuses regex when they first learn it
+kingles_work: because it's really cool
+erus_macbook: regex is typically 100 to 1000 times slower
+: Dir['audio/*.fifo'].map{|file| file.split(/[\/.]/)[1]}
+erus_macbook: than a split() or a substr
+kingles_work: exactly my point, mr eru :o
+erus_macbook: just as an FYI
+erus_macbook: :P
+kingles_work: calm down your elitismpants
+erus_macbook: :P
+erus_macbook: i just meant for falconio
+kingles_work: oh
+kingles_work: yes
+erus_macbook: regex is good to know i guess but
+erus_macbook: dont over think it
+erus_macbook: legit you can get a 100,000k+ job
+erus_macbook: without knowing any regex
+erus_macbook: off the top of ur head
+erus_macbook: lol
+erus_macbook: and there are plenty of worthless nerds
+: naw i just googled how to .split with more than one delimeter
+erus_macbook: who can recite regex
+: and they were like
+: regex
+kingles_work: falcon what I meant for &quot;it should only be used when needed&quot; was that it's usually pretty slow and often there are more simple/elegant solutions!
+: so i was like
+: ok i regex now
+: well there's that feature done
+: moving on
+Falconbot: DogeBot Online!
+FalconWiz: /channel Team 1
+FalconWiz: /sb
+Falconbot: Available sounds: ["csbro", "eru", "lollipop", "camera", "omg", "pants", "words", "ftt", "upcarrot", "wow", "007", "dawg", "fwizard", "hello", "calmtits", "bananas", "kkk", "heyguys"].
+FalconWiz: i should make it a-z as well
+Falconbot: DogeBot Online!
+: /sb
+Falconbot: DogeBot Online!
+FalconWiz: /sb
+Falconbot: Available sounds: ["csbro", "eru", "lollipop", "camera", "omg", "pants", "words", "ftt", "upcarrot", "wow", "007", "dawg", "fwizard", "hello", "calmtits", "bananas", "kkk", "heyguys"].
+Falconbot: DogeBot Online!
+FalconWiz: /sb
+Falconbot: Available sounds: ["007", "bananas", "calmtits", "camera", "csbro", "dawg", "eru", "ftt", "fwizard", "hello", "heyguys", "kkk", "lollipop", "omg", "pants", "upcarrot", "words", "wow"].
+: /channel Team 1
+: /sb
+Falconbot: Available sounds: ["007", "bananas", "calmtits", "camera", "csbro", "dawg", "eru", "ftt", "fwizard", "hello", "heyguys", "kkk", "lollipop", "omg", "pants", "upcarrot", "words", "wow"].
+: .sort is nice
+kingles_work: :d
+: PROGRESS
+: KINGLES
+kingles_work: YEEEY
+: hello dogebot
+Falconbot: Hello !
+: wait a second...
+: Hello
+: Hello DogeBot
+Falconbot: Hello !
+: hmmm
+: kingles say hello
+: to dogebot
+kingles_work: hello dogebot
+Falconbot: Hello kingles_work!
+: i need larger sample size
+: wtf
+: he doesnt say my name
+: hello dogebot
+Falconbot: Hello !
+kingles_work: racist
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+asdqwex@work: goodbye dogebot
+: hello dogebot :(
+Falconbot: Hello !
+: :(
+Falconbot: DogeBot Online!
+FalconWiz: /channel Team 1
+asdqwex@work: that is a weird bug you have their falcon
+FalconWiz: hello dogebot
+Falconbot: Hello FalconWiz!
+FalconWiz: fixed it
+asdqwex@work: hello dogebot
+Falconbot: Hello asdqwex@work!
+FalconWiz: i turned it off and on again
+asdqwex@work: hello doge
+asdqwex@work: its running on a windows?
+kingles_work: it's running on a linux
+FalconWiz: are ruby noobs called roobs?
+FalconWiz: working on mumblebot feels weird
+FalconWiz: because im not doing any documentation lol
+erus_macbook: hahahahah
+erus_macbook: welcome to my life falcon
+FalconWiz: you're not doing documentation either? :P
+FalconWiz: I really should start doing some comments
+FalconWiz: my c#/c++ is all comments
+Falconbot: DogeBot Online!
+FalconWiz: /channel Team 1
+FalconWiz: /sb
+Falconbot: Available sounds: ["007", "bananas", "calmtits", "camera", "csbro", "dawg", "eru", "ftt", "fwizard", "hello", "heyguys", "kkk", "lollipop", "omg", "pants", "upcarrot", "words", "wow"].
+kingles_work: /sb 007
+FalconWiz: /sb kkk
+kingles_work: I can't hear ;~;
+FalconWiz: /sb calmtits
+kingles_work: do you hear it?
+FalconWiz: /sb bananas
+FalconWiz: /sb csbro
+kingles_work: falcannn
+FalconWiz: kangles
+kingles_work: do you hear the sb sounds?
+FalconWiz: yeah
+kingles_work: huh 
+kingles_work: I wonder why I don't hear anything
+FalconWiz: can you hear people talking?
+kingles_work: nope
+FalconWiz: well they are
+kingles_work: got it
+kingles_work: I think
+kingles_work: I just heard you
+kingles_work: /sb hello
+kingles_work: /sb ftt
+kingles_work: :3
+FalconWiz: :3
+kingles_work: I can hear now
+gtAngel: /sb eru
+gtAngel: /sb eru
+gtAngel: /sb eru
+kingles_work: HELLO DURANDAL
+FalconWiz: /sb hello
+kingles_work: all the kinglessounds
+FalconWiz: :D
+kingles_work: /sb
+Falconbot: Available sounds: ["007", "bananas", "calmtits", "camera", "csbro", "dawg", "eru", "ftt", "fwizard", "hello", "heyguys", "kkk", "lollipop", "omg", "pants", "upcarrot", "words", "wow"].
+kingles_work: /sb upcarrot
+FalconWiz: /sb pants
+FalconWiz: /sb heyguys
+FalconWiz: /sb hello
+FalconWiz: /sb dawg
+FalconWiz: /sb kkk
+FalconWiz: /sb lollipop
+asdqwex: seandon did gio make it hom eok?
+Falconbot: DogeBot Online!
+FalconWiz: /channel Team 1
+kingles_work: /sb wow
+kingles_work: /sb dawg
+kingles_work: I mostly would say these things anyway
+kingles_work: curry powder
+kingles_work: is not that spicy
+kingles_work: Durandal
+kingles_work: fly to portland
+kingles_work: and let me cook you food
+kingles_work: ty
+kingles_work: /sb WOW
+kingles_work: /sb wow
+FalconWiz: /sb csbro
+FalconWiz: /sb pants
+NeutralJem: hey eru did you leave work yet?
+gtAngel: <a href="http://myanimelist.net/anime/20973/Sekai_Seifuku:_Bouryaku_no_Zvezda">http://myanimelist.net/anime/20973/Sekai_Seifuku:_Bouryaku_no_Zvezda</a>
+FalconWiz: /sb camera
+FalconWiz: lol kingles i did it
+FalconWiz: let me know if you can hear this
+kingles_work: /sb wow
+FalconWiz: did it work?
+kingles_work: oh my god
+kingles_work: yes
+kingles_work: /sb
+Falconbot: Available sounds: ["007", "bananas", "calmtits", "camera", "csbro", "dawg", "eru", "ftt", "fwizard", "hello", "heyguys", "kkk", "lollipop", "omg", "pants", "upcarrot", "words", "wow"].
+kingles_work: /sb ftt
+FalconWiz: that feel when you are the only one in your class to finish the lab
+FalconWiz: i wonder if i can reuse my i7 950, mobo, psu and just get a new GPS/SSD
+FalconWiz: GPU*
+FalconWiz: /sb words
+Falconbot: DogeBot Online!
+FalconWiz: /channel Team 1
+FalconWiz: hello dogebot
+Falconbot: Hello FalconWiz!
+kingles_work: hello doge
+kingles_work: hello dogebot
+Falconbot: Hello kingles_work!
+gtSamwiseGanja: so many ppls
+gtAzire: DIE DOGEBOT
+gtAzire: damnit
+gtAzire: stupid dogebot
+gtAzire: repsond
+gtAzire: to my abuse
+kingles_work: Don't worry azire
+kingles_work: I'll program an entire dialogue tree just for you
+FalconWiz: /msg ey bb u wat sum fukk?
+Falconbot:  ey bb u wat sum fukk?
+kingles_work: lol
+kingles_work: lolol
+gtSamwiseGanja: u wat some fuck
+gtAzire: whatttttttttttttttt
+gtAzire: the
+gtSamwiseGanja: wat some fuck
+gtSamwiseGanja: wat
+gtAzire: oh god the tears
+kingles_work: jesus
+kingles_work: h
+kingles_work: wow
+FalconWiz: i need to get a rubix cube
+FalconWiz: rubiks
+kingles_work: do you?
+kingles_work: do you really?
+FalconWiz: yeah i'd be great at partys
+kingles_work: I think you're already pretty cool man
+FalconWiz: HEY WOAH WHAT IS THIS
+kingles_work: rubick's cube might bring you down man
+FalconWiz: A RUBICKS CUBE IN MY POCKET
+FalconWiz: im trying to think of things to add to mumblebot
+erus_macbook: someone help me im watching econ lectures again
+gtSamwiseGanja: should have it announce when people win/lose in league
+FalconWiz: that might be a bit annoying
+gtSamwiseGanja: could have a command
+gtSamwiseGanja: /s shutup
+gtSamwiseGanja: when it does?
+gtSamwiseGanja: just a thought
+erus_macbook: inb4 statemachine
+FalconWiz: /msg Azire has just lost a game of league! He went 0/11/3. GET REKT
+Falconbot:  Azire has just lost a game of league! He went 0/11/3. GET REKT
+gtSamwiseGanja: yea
+gtSamwiseGanja: lol
+gtAzire: -__-
+gtAzire: it was 2/10/9 as support annie
+gtAzire: suppiorting a jinx that decided to facecheck baron
+gtAzire: and bushes
+gtAzire: and anything
+erus_macbook: how do you facecheck baron?
+gtSamwiseGanja: with your face?
+gtAzire: we had wards at our blue
+gtAzire: saw their team go by it leving top
+gtAzire: and she just walks out way infront of everyone
+gtAzire: and dies
+gtAzire: because Xin Zhao
+erus_macbook: why didnt you stun?
+erus_macbook: ;)
+gtAzire: because i was too far away
+gtAzire: ffs
+gtAzire: I CAN ONLY DO SO MUCH
+kingles_work: DO MORE
+erus_macbook: stay near ur carry
+gtAzire: I WAS TRYING
+erus_macbook: GGG
+erus_macbook: loool
+gtAzire: i was like, 5 teemos away
+gtAzire: she died instantly
+erus_macbook: took 20 teemos per second of damage
+gtAzire: Xin and a super fed Diana
+erus_macbook: holy FUCK
+erus_macbook: day9 is on yogscast
+gtAzire: lol
+gtAzire: does day9 still talk about starcraft
+gtAzire: or did he move on
+FalconWiz: he still does dailies
+FalconWiz: also yeah i saw
+FalconWiz: the yoggscast
+FalconWiz: it was like
+FalconWiz: lewis asks simon questions about Day9
+FalconWiz: and simon has to guess the answers
+erus_macbook: he does hearthstone now
+erus_macbook: lol day9 has never played wow
+kingles_work: :XXXXXXXXXXXXX
+kingles_work: itt cultural relativism
+kingles_work: well obviously guns don't make people violent
+kingles_work: that's fucking
+kingles_work: dumb
+FalconWiz: <a href="https://www.youtube.com/watch?v=qObzgUfCl28">https://www.youtube.com/watch?v=qObzgUfCl28</a>
+kingles_work: RUBYRUBYRUBYRUBAAAY
+erus_macbook: blegh
+erus_macbook: depression is OP
+FalconWiz: rick and morty for 100 years adventures .com
+erus_macbook: :P
+erus_macbook: yo kingles
+erus_macbook: that mech game you were playing back at techtonic
+erus_macbook: was titanfall right?
+Falconbot: Doge Online!
+FalconLaptop: /channel Team 1
+<p style="-qt-paragraph-type:empty"><br/></p>
+Falconbot: Doge Online!
+FalconLaptop: /channel Team 1
+kingles_work: hello Doge
+Falconbot: Hello kingles_work!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: i should put a sleep in that so it's not spammable
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: yeah
+Falconbot: Doge Online!
+FalconLaptop: /channel Team 1
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+kingles_work: falcon
+FalconLaptop: oh
+kingles_work: Falcon, it uses a queue internally
+FalconLaptop: oh
+kingles_work: it will never miss a message.
+FalconLaptop: hmm
+FalconLaptop: TIL
+FalconLaptop: hope you're not using text to speech
+FalconLaptop: lol
+kingles_work: it's okay I only know that because I literally know everything about how that system works now
+kingles_work: I am
+kingles_work: actually
+kingles_work: using TTS
+Falconbot: Doge Online!
+FalconLaptop: /channel Team 1
+kingles_work: Hello doge
+Falconbot: Hello kingles_work!
+kingles_work: /sb
+Falconbot: Available sounds: ["007", "bananas", "calmtits", "camera", "csbro", "dawg", "eru", "ftt", "fwizard", "hello", "heyguys", "kkk", "lollipop", "omg", "pants", "upcarrot", "words", "wow"].
+FalconLaptop: /msg I am Doge.
+Falconbot:  I am Doge.
+kingles_work: /sb omg
+FalconLaptop: /msg Bow down to Doge.
+Falconbot:  Bow down to Doge.
+kingles_work: /sb pants
+kingles_work: pants
+kingles_work: is the fucking best
+FalconLaptop: It is pretty good
+kingles_work: /sb fwizard
+kingles_work: /sb kkk
+kingles_work: /sb camera
+kingles_work: /sb lollipop
+FalconLaptop: and azire wondered why i made a soundboard
+kingles_work: to capture very funny clips
+kingles_work: imo
+kingles_work: /sb pants
+Falconbot: Doge Online!
+FalconLaptop: /channel Team 1
+FalconLaptop: it seems to do it randomly
+kingles_work: /sb pants
+kingles_work: /sb wow
+FalconLaptop: /sb kkk
+FalconLaptop: does it work? i dont have sound on
+kingles_work: yeah
+kingles_work: it's working
+FalconLaptop: hmmm
+kingles_work: /sb hello
+kingles_work: /sb ftt
+kingles_work: /sb er
+kingles_work: /sb eru
+FalconLaptop: /sb pants
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: /sb
+Falconbot: Available sounds: ["007", "bananas", "calmtits", "camera", "csbro", "dawg", "eru", "ftt", "fwizard", "hello", "heyguys", "kkk", "lollipop", "omg", "pants", "upcarrot", "words", "wow"].
+kingles_work: /spotthefed
+kingles_work: lkajsd
+FalconLaptop: i think i have that disabled on my bot
+kingles_work: aah okay
+kingles_work: wow racist.
+FalconLaptop: damn, there are a lot of bots on reddit made using python
+kingles_work: yarop
+kingles_work: yarp
+kingles_work: even
+Falconbot: Doge Online!
+FalconLaptop: /channel Team 1
+FalconLaptop: hello dgoe
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: doge shut up
+Falconbot: Very mute, such quiet. Wow.
+FalconLaptop: doge shut up
+Falconbot: Very mute, such quiet. Wow.
+FalconLaptop: i wonder how i make it unmute
+FalconLaptop: @cli.mute = false
+kingles_work: /unmute
+FalconLaptop: maybe
+kingles_work: oh
+kingles_work: yes
+Falconbot: Doge Online!
+FalconLaptop: /channel Team 1
+FalconLaptop: dogebot shut up
+Falconbot: Very mute, such quiet. Wow.
+FalconLaptop: unmute
+FalconLaptop: /unmute
+FalconLaptop: dogebot unmute
+Falconbot: Doge Online!
+FalconLaptop: /channel team 1
+Falconbot: Doge Online!
+FalconLaptop: /channel Team 1
+FalconLaptop: doge shut up
+Falconbot: Very mute, such quiet. Wow.
+FalconLaptop: doge unmute
+Falconbot: Doge Online!
+FalconLaptop: /channel Team 1
+FalconLaptop: doge unmute
+Falconbot: Such sound, very words. Wow.
+FalconLaptop: ok so
+FalconLaptop: @cli.mute = false
+FalconLaptop: doesnt work
+FalconLaptop: def mute(bool=true)<br />      send_user_state self_mute: bool<br />    end
+FalconLaptop: is the thing in the client files
+FalconLaptop: in mumble-ruby
+FalconLaptop: maybe @cli.mute(false)
+Falconbot: Doge Online!
+: doge unmute
+Falconbot: Such sound, very words. Wow.
+: /channel Team 1
+: doge shut up
+Falconbot: Very mute, such quiet. Wow.
+: doge unmute
+Falconbot: Such sound, very words. Wow.
+: hmmm
+: it was supposed to say words
+: doge unmute
+Falconbot: Such sound, very words. Wow.
+: doge shut up
+Falconbot: Very mute, such quiet. Wow.
+: hi eru
+: hi doge
+Falconbot: Doge Online!
+FalconLaptop: /channel Team 1
+erus_iphone: <p>In the airy</p>
+erus_iphone: <p>Airu </p>
+FalconLaptop: hi doge
+FalconLaptop: hello doge
+Falconbot: Hello FalconLaptop!
+FalconLaptop: currently working on mumblebot
+erus_iphone: <p>:D</p>
+FalconLaptop: doge shut up
+Falconbot: Very mute, such quiet. Wow.
+erus_iphone: <p>There is a very loud woman sitting behind me</p>
+FalconLaptop: doge unmute
+Falconbot: Such sound, very words. Wow.
+Falconbot: Doge Online!
+FalconLaptop: /channel Team 1
+FalconLaptop: /channel Root
+: doge shut up
+Falconbot: Very mute, such quiet. Wow.
+: doge unmute
+Falconbot: Such sound, very words. Wow.
