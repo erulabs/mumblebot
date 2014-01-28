@@ -7,21 +7,23 @@ require 'uri'
 require 'json'
 require 'base64'
 require 'open-uri'
+require 'debugger'
 
 class MambleBot
 
-	NAME = "Mumblebot"
-	alias_method :sub, :subscribe
-	@subs = {}
+	NAME = "puppydoge"
 
 	def subscribe(regex, &block)
-		regex = regex.inspect.sub('/', "/#{MambleBot::NAME}\\s?")
+		regex = Regexp.new(regex.inspect.sub('/', "/#{MambleBot::NAME}\\s?")[1..-2]) unless regex.inspect =~ /^\/\\\//
 		@subs[regex] = block
 	end
 
+	alias_method :sub, :subscribe
+
 	def fire_commands(command)
+		puts "attempting to fire a command, '#{command}'"
 		@subs.select{|key| command =~ key}.each do |k,v|
-			v.call(Regexp.last_match, $')
+			v.call(*((Regexp.last_match[1..-1].to_a << $').compact.reject(&:empty?)))
 		end
 	end
 
@@ -58,6 +60,7 @@ class MambleBot
 	end
 
 	def sound_board(msg)
+		msg ||= ''
 		msg = msg.strip
 		file =	File.join('audio/',"#{msg}.fifo")
 		@cli.stream_raw_audio(file) if File.exist? file
@@ -99,16 +102,18 @@ class MambleBot
 
 
 	def initialize
-		sub /sb/ do |msg|
+		@subs ={}
+		subscribe /\/sb/ do |msg|
 			sound_board msg
 		end
-		sub // do |msg|
-		usernames = ['FalctimusPrime', 'FalconBot', 'WizBot']
-		@cli = Mumble::Client.new('erulabs.com', 64738, usernames.sample, 'qweasd')
+		subscribe /play/ do |msg|
+			sound_board msg
+		end
+		@cli = Mumble::Client.new('erulabs.com', 64738, MambleBot::NAME, 'qweasd')
 		@cli.on_text_message do |msg|
 			if @cli.users.has_key?(msg.actor)
 				log @cli.users[msg.actor].name + ": " + msg.message
-				fire_commands msg.message.to_s
+			        fire_commands msg.message.to_s
 				case msg.message.to_s
 				when /^(?:[\/\\]|)d(\d{1,3})$/
 					send roll_dice($1)
@@ -116,8 +121,8 @@ class MambleBot
 					channel_commands($')
 				when /^\/fb/
 					puts "Herp Derp #{@cli.find_user($').to_s}"
-				when /^\/sb/
-					sound_board($')
+				#when /^\/sb/
+				#	sound_board($')
 				when /^img/
 					get_image($')
 				when /^msg/ then send($') 
@@ -130,7 +135,7 @@ class MambleBot
 		#@cli.mute
 		#@cli.deafen
 		sleep(1)
-		@cli.join_channel('Team 2')
+		@cli.join_channel('Root')
 		puts 'Press enter to terminate script';
 		gets
 		@cli.disconnect
