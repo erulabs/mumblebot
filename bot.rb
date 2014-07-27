@@ -83,7 +83,7 @@ class MambleBot
 
 	def initialize
 		usernames = ['FalctimusPrime', 'FalconBot', 'WizBot']
-		@cli = Mumble::Client.new('erulabs.com', 64738, usernames.sample, 'qweasd')
+		@cli = Mumble::Client.new('hostname', 64738, usernames.sample, 'password')
 		@cli.on_text_message do |msg|
 			if @cli.users.has_key?(msg.actor)
 				log @cli.users[msg.actor].name + ": " + msg.message
